@@ -57,3 +57,9 @@ git push -u origin main
 git push
 git push --set-upstream origin master
 git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/Iswaryaparameswaran/events-app-internal
+ls
+git config --global --list
+git init
