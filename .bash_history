@@ -50,3 +50,10 @@ git push -u origin main
 docker build -t external:v1.0 .
 ls
 git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/Iswaryaparameswaran/events-app-external
+git push -u origin main
+git push
+git push --set-upstream origin master
+git init
